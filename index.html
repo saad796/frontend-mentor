@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>QR code component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+  body{
+    background-color:hsl(219, 59%, 75%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .main{
+    width: 225px;
+    background-color: white;
+    padding: 12px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 6px;
+    margin-top: 4%;
+  }
+  .qr-code{
+    width: inherit;
+    border-radius: 12px;
+  }
+  .main h4{
+    font-size:19px;
+  }
+  .main p{
+    font-size: 15px;
+  }
+  @media only screen and (max-width:414px) {
+  .main{
+    width: 298px;
+    margin-top: 15%;
+    }
+  .main h4{
+    font-size:25px;
+  }
+  .main p{
+    font-size: 17px;
+  }
+    
+  }
+  </style>
+</head>
+<body>
+  <div class="main">
+    <img src="images/image-qr-code.png" class="qr-code">
+    <h4>Improve your front end skills by building projects</h4>
+    <p>Scan the QR code to visit frontend mentor and take your coding skills to next level</p>
+  </div>
+
+</body>
+</html>
